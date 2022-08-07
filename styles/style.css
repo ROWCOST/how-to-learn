@@ -268,7 +268,6 @@
 .footer__columns {
   width: 90%;
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
   margin: 60px auto 40px auto;
 }
