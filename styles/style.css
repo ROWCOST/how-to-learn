@@ -90,7 +90,7 @@
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 764px;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
@@ -207,6 +207,9 @@
 }
 
 .kaufman {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: #1f1f1f;
   padding: 90px 0 90px 0;
   position: relative;
@@ -216,12 +219,14 @@
 .section-title_theme_dark {
   color: #fff;
   margin: 0 auto;
+  position: relative;
   z-index: 2;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
   margin: 20px auto 0 auto;
+  position: relative;
   z-index: 2;
 }
 
@@ -252,6 +257,7 @@
   width: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
+  background-position: center;
   position: absolute;
   right: -210px;
   top: 0;
